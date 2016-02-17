@@ -148,8 +148,8 @@ $$
 
 ## Conclusion
 
->- 1. Fox News is the dominant news source for conservatives at the story- and individual- level
->- 2. Subject matter matters: hard news strengthen selection while exposure to soft news also reveals polarization
+>- 1. Fox News is the dominant news source for conservatives at the story- and individual- levels
+>- 2. Subject matter matters: hard news strengthens selection while exposure to soft news also reveals polarization
 >- 3. Implications
    - 1. Polarization among the audience leads to baised news content under the market model
    - 2. Selective exposure may further reinforce existing beliefs and attitudes: the echo chamber effect
