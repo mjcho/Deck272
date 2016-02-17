@@ -4,24 +4,109 @@ subtitle    : Evidence of Ideological Selectivity in Media Use
 author      : MJ Cho
 job         : COMM 272 Presentation
 logo        : RedBlue.jpg
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+framework   : io2012               # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js         # {highlight.js, prettify, highlight}
+hitheme     : tomorrow             # 
+widgets     : [mathjax, bootstrap, quiz] # {mathjax, quiz, bootstrap}
+mode        : selfcontained        # {standalone, draft}
 knit        : slidify::knit2slides
----
+--- #RQ
+
+<style>
+body {
+  background-color: #000;
+}
+.quiz-option label{
+  display: inline;
+  font-size: 1em;
+}
+ul.nav li::before { content: ""; }  
+ul.nav li{ font-size: 18px; line-height: 24px;}
+</style>
 
 ## Research Question
 
-> 1. 
-> 2. 
-> 3. 
+>- 1. question 1
+   - point 1
+   - point 2
+>- 2. 
+>- 3. 
 
---- .class #id 
+--- #Why
 
-## Slide 2
+## The "So What" Question
+
+So **why** should we care about answering these questions?
+
+>- 1. why 1
+>- 2. why 2
+
+--- #Literature
+
+## What is already known in the literature?
+
+>- 1. study 1
+   - point 1
+   - point 2
+>- 2. study 2
+   - point 1
+   - point 2
+>- 3. study 3
+   - point 1
+   - point 2
+
+--- {class: class, tpl: tabs}
+
+## Method
+
+*** {class: active, id: Experimental Design}
+
+Tab1
+
+*** {id: Sample}
+
+Tab2
+
+*** {id: Hypotheses}
+
+Tab3
+
+*** {id: Analysis}
+Multinomial Logit.
+$$
+\begin{aligned}
+P_{ij} = \frac{exp(X_{ij}\alpha)}{\sum_{k=1}^{J}exp(X_{ij}\alpha)}
+\end{aligned}
+$$
+
+--- #Results1
+
+## Results
+### Overall effects of news labels
+
+--- #Results2
+
+## Results
+### Evidence of selective exposure in news selection
+```{r fig.width=8, fig.height=5,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("figure/fig1.png")
+ grid.raster(img)
+```
+
+---
+
+## Results
+### Are more involved partisans more selective?
 
 
+---
+
+## Conclusion
+
+---
+
+## Follow-up Research
 
 
