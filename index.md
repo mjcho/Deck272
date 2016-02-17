@@ -121,6 +121,7 @@ $$
 ## Results
 ### Evidence of selective exposure in news selection
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+#### Figure 1 Effects of story label on story selection
 
 --- #Results22
 
@@ -147,4 +148,11 @@ $$
 
 ## Conclusion
 
+>- 1. Fox News is the dominant news source for conservatives at the story- and individual- level
+>- 2. Subject matter matters: hard news strengthen selection while exposure to soft news also reveals polarization
+>- 3. Implications
+   - 1. Polarization among the audience leads to baised news content under the market model
+   - 2. Selective exposure may further reinforce existing beliefs and attitudes: the echo chamber effect
+   - 3. As the technological advancement further enables customization of the media environment, the effect of selective exposure also grows
+   
 
